@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica;
+    background-color: rgb(255, 242, 224);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Georgia', serif;
+    color: white;
+    font-size: 43px;
+}
+
+h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #3b231b;
+    padding: 0 40px;
+    text-align: justify;
+}
+
+h5{
+    font-family: 'Georgia', serif;
+    color: #3b231b;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+p {
+   font-size: 18px;
+   color: #000000;
+   line-height: 1.5;
+   padding: 0 20px;
+   margin: 0 20px;
+   text-align: justify;
+}
+
+button {
+    background-color: #d25f05;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #a04f11;
+}
+
+#destaque {
+    background-color: #ff7200;
+    padding: 20px;
+}
+
+#rodape {
+    background-color: #ff7200;
+    padding: 15px;
+}
+#rodape p {
+   color: white;
+   font-size: 14px;
+   text-align: center;
+}
