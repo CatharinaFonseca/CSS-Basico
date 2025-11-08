@@ -26,6 +26,16 @@ h5{
     padding: 0 20px;
 }
 
+h5:hover {
+    color: #d25f05;
+    text-decoration: underline;
+}
+
+strong:hover {
+    color: #d25f05;
+    text-decoration: underline;
+}
+
 p {
    font-size: 18px;
    color: #000000;
@@ -33,6 +43,11 @@ p {
    padding: 0 20px;
    margin: 0 20px;
    text-align: justify;
+}
+
+figure img {
+    border-radius: 10px;
+    border: 2px solid #ff7200;
 }
 
 button {
@@ -46,6 +61,14 @@ button {
 
 button:hover {
     background-color: #a04f11;
+}
+
+.caixa {
+    border: 2px solid #ff7200;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    background-color: #fff0e6;
 }
 
 #destaque {
